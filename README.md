@@ -18,7 +18,7 @@ cada uma fecha uma classe de ataque: HSTS contra SSL stripping, CSP contra XSS q
 validação, `frame-ancestors` contra clickjacking. Eles diminuem o estrago quando alguma falha
 passa pelo código.
 
-A Prumo, plataforma que cofundei, roda atrás do Cloudflare, e eu queria um jeito de conferir
+A Prumo, plataforma que fundei com o Marcos Alan, roda atrás do Cloudflare, e eu queria um jeito de conferir
 os headers que chegam de fato no navegador sem depender de uma lista de cabeça. Este projeto
 escreve no código o critério de cada verificação e testa cada um.
 
