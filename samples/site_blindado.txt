@@ -1,0 +1,16 @@
+HTTP/1.1 301 Moved Permanently
+Location: https://app.example.com/
+Content-Length: 0
+
+HTTP/2 200
+content-type: text/html; charset=utf-8
+server: nginx
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+content-security-policy: default-src 'self'; script-src 'nonce-Zm9vYmFy' 'strict-dynamic' 'unsafe-inline' https:; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'self'
+x-frame-options: DENY
+x-content-type-options: nosniff
+referrer-policy: strict-origin-when-cross-origin
+permissions-policy: camera=(), microphone=(), geolocation=()
+cross-origin-opener-policy: same-origin
+set-cookie: __Host-session=a91f0c2e; Path=/; Secure; HttpOnly; SameSite=Lax
+set-cookie: csrftoken=5d1e77; Path=/; Secure; SameSite=Strict

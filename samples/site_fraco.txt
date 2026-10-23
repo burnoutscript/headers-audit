@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Date: Fri, 23 Oct 2026 14:02:11 GMT
+Content-Type: text/html; charset=UTF-8
+Server: nginx/1.18.0 (Ubuntu)
+X-Powered-By: PHP/7.4.3
+Strict-Transport-Security: max-age=3600
+Content-Security-Policy: default-src 'self' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:
+X-Frame-Options: ALLOW-FROM https://parceiro.example.com
+X-XSS-Protection: 1; mode=block
+Referrer-Policy: unsafe-url
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Set-Cookie: PHPSESSID=8f2c1e9a7b; path=/
+Set-Cookie: tema=escuro; path=/; SameSite=None
+Set-Cookie: __Host-carrinho=31; Secure; Path=/; Domain=loja.example.com
